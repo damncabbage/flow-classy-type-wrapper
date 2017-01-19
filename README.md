@@ -13,6 +13,7 @@ This is elaborated on [in this blog post](#TODO).
 ## Usage
 
 ```js
+// @flow
 import { TypeWrapper } from 'flow-classy-type-wrapper';
 
 // Declare a new type wrapper:
