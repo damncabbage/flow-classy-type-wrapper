@@ -34,3 +34,5 @@ function greet(userId: UserID, name: string): string {
 
 console.log(greet(id, "Bert"));
 ```
+
+Inspired by [@mkscrg](https://github.com/mkscrg)'s original "class bundle" pattern from [this Flow issue](https://github.com/facebook/flow/issues/465#issuecomment-268411867).
