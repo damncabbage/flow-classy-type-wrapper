@@ -1,0 +1,23 @@
+{
+  "name": "flow-classy-type-wrapper",
+  "version": "0.0.1",
+  "description": "Type-wrappers for Flow, quickly defined with ES6 classes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damncabbage/flow-classy-type-wrapper.git"
+  },
+  "keywords": [
+    "flow",
+    "flowtype"
+  ],
+  "author": "Rob Howard <rob@robhoward.id.au>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/damncabbage/flow-classy-type-wrapper/issues"
+  },
+  "homepage": "https://github.com/damncabbage/flow-classy-type-wrapper#readme"
+}
