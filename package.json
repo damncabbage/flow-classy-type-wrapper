@@ -1,6 +1,6 @@
 {
   "name": "flow-classy-type-wrapper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Type-wrappers for Flow, quickly defined with ES6 classes.",
   "main": "lib/TypeWrapper.js",
   "scripts": {
@@ -18,6 +18,10 @@
   "tags": [
     "flow",
     "flowtype"
+  ],
+  "files": [
+    "lib",
+    "src"
   ],
   "author": "Rob Howard <rob@robhoward.id.au>",
   "license": "Apache-2.0",
