@@ -1,4 +1,4 @@
-# Classy Type-Wrapper for Flow
+# Classy Type-Wrapper for Flow [![](https://img.shields.io/npm/v/flow-classy-type-wrapper.svg)](https://npmjs.com/package/flow-classy-type-wrapper)
 
 A tiny module that gives you the `TypeWrapper` class + static methods bundle, for quick definition of type wrappers.
 
