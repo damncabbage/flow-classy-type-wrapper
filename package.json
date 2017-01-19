@@ -1,10 +1,10 @@
 {
   "name": "flow-classy-type-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Type-wrappers for Flow, quickly defined with ES6 classes.",
-  "main": "index.js",
+  "main": "lib/TypeWrapper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --compilers js:babel-register test",
     "build": "rm -rf lib/* && babel src -d lib && flow-copy-source -v src lib"
   },
   "repository": {
@@ -12,6 +12,10 @@
     "url": "git+https://github.com/damncabbage/flow-classy-type-wrapper.git"
   },
   "keywords": [
+    "flow",
+    "flowtype"
+  ],
+  "tags": [
     "flow",
     "flowtype"
   ],
@@ -29,6 +33,7 @@
     "babel-plugin-transform-flow-strip-types": "^6.21.0",
     "babel-preset-es2015": "^6.18.0",
     "flow-bin": "^0.38.0",
-    "flow-copy-source": "^1.1.0"
+    "flow-copy-source": "^1.1.0",
+    "mocha": "^3.2.0"
   }
 }
