@@ -1,6 +1,6 @@
 {
   "name": "flow-classy-type-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type-wrappers for Flow, quickly defined with ES6 classes.",
   "main": "lib/TypeWrapper.js",
   "scripts": {
